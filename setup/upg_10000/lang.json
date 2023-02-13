@@ -1,0 +1,15 @@
+{
+    "normal": {
+        "added": [
+            "__app_commercepaidapi",
+            "__api_commercepaidapi_invoices"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

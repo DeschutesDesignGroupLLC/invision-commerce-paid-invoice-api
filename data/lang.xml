@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="commercepaidapi" version="10000">
+  <word key="__app_commercepaidapi" js="0">Commerce Paid API Endpoint</word>
+  <word key="__api_commercepaidapi_invoices" js="0">Invoices</word>
+ </app>
+</language>
