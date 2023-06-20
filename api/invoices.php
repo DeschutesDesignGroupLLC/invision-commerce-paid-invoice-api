@@ -40,6 +40,10 @@ class _invoices extends \IPS\Api\Controller
 
 			$invoice->markPaid($this->member);
 
+            $paidInvoice = new \IPS\commercepaidapi\System\Invoice();
+            $paidInvoice->invoice_id = $invoice->id;
+            $paidInvoice->save();
+
 			return new \IPS\Api\Response(200, $invoice->apiOutput($this->member));
 		}
 		catch (\OutOfRangeException $e) {

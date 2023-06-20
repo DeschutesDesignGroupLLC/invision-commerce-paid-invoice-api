@@ -1,1 +1,10 @@
-[]
+{
+    "Invoice": {
+        "type": "C",
+        "class": "\\IPS\\nexus\\Invoice"
+    },
+    "view": {
+        "type": "S",
+        "class": "\\IPS\\Theme\\class_nexus_admin_invoices"
+    }
+}
